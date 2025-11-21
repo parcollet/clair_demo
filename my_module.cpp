@@ -13,5 +13,3 @@ class my_class {
 };
 
 
-
-#include "my_module.wrap.cxx"
