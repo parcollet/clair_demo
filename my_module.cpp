@@ -1,15 +1,10 @@
 #include "c2py/c2py.hpp"
 
-/// A wonderful little class
-class my_class {
-  int a, b;
-
-  public:
-  my_class(int a_, int b_) : a(a_), b(b_) {}
-
-  int f(int u) const { return u + a; }
-  int g(int u) const { return 10;}
-
-};
-
+/** Some documentation
+ *
+ *  @param x First value
+ *  @param y Second value
+ *  @return The result
+ */
+int add(int x, int y) { return x + y; }
 
